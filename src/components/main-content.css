@@ -28,6 +28,11 @@ button {
     border-radius: 5px;
     border: 0;
     color: white;
-    margin: 15px auto 0px auto;
+    margin: 15px auto 36px auto;
     cursor: pointer;    
+}
+
+.main-image {
+    width: 477px;
+    border-radius: 2px;
 }
