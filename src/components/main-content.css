@@ -1,40 +1,39 @@
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 36px;
+}
 
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+    margin-bottom: 17px;
 }
 
 .form--input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 17px;
-    margin-top: 36px;
-}
-
-input {
-    font-family: 'Karla', sans-serif;
+    width: 330px;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
     border: 1px solid #D5D4D8;
-    height: 35px;
-    width: 230px;
-    border-radius: 5px;
     text-indent: 5px;
+    margin: 0 auto 0 auto;
 }
 
-button {
-    font-family: 'Karla', sans-serif;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-    width: 477px;
-    height: 40px;
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
     border-radius: 5px;
-    border: 0;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     color: white;
-    margin: 15px auto 36px auto;
-    cursor: pointer;    
+    border: none;
+    cursor: pointer;
+    width: 477px;
+    margin: 0 auto 0 auto;
 }
 
-.main-image {
-    width: 477px;
-    border-radius: 2px;
+.meme--image {
+    max-width: 65vh;
+    border-radius: 3px;
+    margin: 0 auto 0 auto;
 }
