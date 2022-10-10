@@ -28,3 +28,15 @@
     font-weight: 500;
     font-size: 14px;
 }
+
+@media only screen and (max-width: 420px) {
+    
+    .header--title {
+        font-size: 1.1em;
+    }
+
+    .header--description {
+        font-size: 12px;
+    }
+
+}

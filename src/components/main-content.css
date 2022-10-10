@@ -20,7 +20,7 @@ main {
 
 .form--input {
     width: 400px;
-    min-width: 200px;
+    min-width: 160px;
     height: 40px;
     font-family: "Karla", sans-serif;
     border-radius: 5px;
@@ -52,7 +52,6 @@ main {
     display: block;
     margin: auto;
     max-width: 677px;
-    min-width: 350px;
     border-radius: 3px;
 }
 
@@ -87,4 +86,32 @@ main {
 
 .top {
     top: 0;
+}
+
+@media only screen and (max-width: 678px) {
+    
+    .form--input__div {
+        gap: 8px;
+    }
+
+    .meme--image {
+        max-width: 80vw;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .meme--text {
+        font-size: 1.2em;
+        text-shadow:
+        1px 1px 0 #000,
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        0 1px 0 #000,
+        1px 0 0 #000,
+        0 -1px 0 #000,
+        -1px 0 0 #000,
+        1px 1px 5px #000;
+    }
 }
